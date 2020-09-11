@@ -64,7 +64,9 @@ button{
   outline:none;
   border: 5px solid white;
   background-color: #669900;
-
+}
+button:hover{
+  filter: drop-shadow(0 0 0.75rem gold);
 }
 
 #hide{

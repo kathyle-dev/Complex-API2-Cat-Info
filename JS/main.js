@@ -1,3 +1,4 @@
+//worked on with House Hayden: Rebecca, Kadeisha, Jeffrey, and Anastasia
 
 const catAPI ={
   button: document.getElementById('button'),
@@ -31,7 +32,7 @@ const catAPI ={
             catAPI.hide.style.display = "inline";
             catAPI.box.style.display = "inline";
 
-            console.log(info)
+            catAPI.button.innerHTML = "GIVE ME ANOTHER CATTT"
           })
         })
     }
